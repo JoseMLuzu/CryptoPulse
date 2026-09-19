@@ -2,6 +2,7 @@ import { useState } from "react";
 import heroImg from "./assets/hero.png";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
+import BitcoinCard from "./components/BitcoinCard";
 import "./App.css";
 
 function App() {
@@ -17,9 +18,8 @@ function App() {
         </div>
         <div>
           <h1>CryptoPulse</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
+
+          <BitcoinCard />
         </div>
         <button
           type="button"
